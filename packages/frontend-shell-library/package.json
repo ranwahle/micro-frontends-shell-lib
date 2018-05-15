@@ -1,0 +1,14 @@
+{
+  "name": "@fronends/shell-library",
+  "version": "1.0.0-alpha-1",
+  "description": "Fronend shell library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ran Wahle",
+  "license": "ISC",
+  "dependencies": {
+    "@frontend/router": "^1.0.0-alpha-1"
+  }
+}
