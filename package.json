@@ -1,0 +1,31 @@
+{
+  "name": "micro-frontends-shell-lib",
+  "version": "1.0.0",
+  "description": "Micro fromtnends ahell app",
+  "main": "index.js",
+  "scripts": {
+    "test": "lerna run test",
+    "publish": "lerna publish --scope='@noygal/deps-dev' --scope='@noygal/deps-client'",
+    "deps:clean": "rm -rf packages/*/node_modules",
+    "deps:bootstrap": "lerna bootstrap",
+    "cb": "npm run deps:clean && npm run deps:bootstrap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranwahle/micro-frontends-shell-lib.git"
+  },
+  "keywords": [
+    "Microfrontends",
+    "Shell",
+    "Library"
+  ],
+  "author": "Ran Wahle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ranwahle/micro-frontends-shell-lib/issues"
+  },
+  "homepage": "https://github.com/ranwahle/micro-frontends-shell-lib#readme",
+  "devDependencies": {
+    "lerna": "^2.11.0"
+  }
+}
