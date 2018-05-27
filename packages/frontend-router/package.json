@@ -1,10 +1,11 @@
 {
   "name": "@frontend/router",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.2",
+  "description": "Frontends router package",
+  "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "keywords": [
     "Frontend",
@@ -13,7 +14,7 @@
   "author": "Ran Wahle",
   "license": "ISC",
   "dependencies": {
-    "@frontends/shell-library": "^0.0.1",
+    "@frontends/shell-library": "^0.0.2",
     "navigo": "^7.1.2"
   }
 }
