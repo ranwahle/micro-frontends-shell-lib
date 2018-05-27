@@ -1,6 +1,6 @@
 {
   "name": "@frontends/shell-library",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Fronend shell library",
   "main": "index.ts",
   "scripts": {
@@ -9,6 +9,6 @@
   "author": "Ran Wahle",
   "license": "ISC",
   "dependencies": {
-    "@frontend/router": "^0.0.2"
+    "@frontend/router": "^0.0.3"
   }
 }
