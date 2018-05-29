@@ -1,4 +1,4 @@
-export interface Route {
+export interface ApplicationRoute {
     url: string;
     applicationUrl : string;
 }
