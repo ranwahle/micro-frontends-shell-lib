@@ -1,6 +1,6 @@
 {
   "name": "@frontend/router",
-  "version": "0.0.1",
+  "version": "0.0.0-alpha-1",
   "description": "Frontends router package",
   "main": "index.ts",
   "scripts": {
@@ -14,7 +14,7 @@
   "author": "Ran Wahle",
   "license": "ISC",
   "dependencies": {
-    "@frontends/shell-library": "^0.0.1",
+    "@frontends/shell-library": "^0.0.0-alpha-1",
     "navigo": "^7.1.2"
   }
 }
